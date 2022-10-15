@@ -1,0 +1,51 @@
+{
+  "name": "init_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "fm": "prettier --single-quote --trailing-comma all --tab-width 4 --write src/**/*.{js,json,jsx,css,scss,ts,tsx}",
+    "format": "lint-staged",
+    "watch": "node-sass --watch src/scss/ --output src/public/styles/",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*.{js,json,jsx,css,scss,ts,tsx}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.10.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-winston": "^4.2.0",
+    "helmet": "^6.0.0",
+    "joi": "^17.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.3",
+    "sanitize": "^2.1.2",
+    "swagger-jsdoc": "^6.0.1",
+    "swagger-ui-express": "^4.1.6",
+    "uuid": "^9.0.0",
+    "winston": "^3.8.2",
+    "winston-mongodb": "^5.1.0"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  }
+}

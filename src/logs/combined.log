@@ -1,0 +1,809 @@
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:05:13.471Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:05:13.474Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 6
+    },
+    timestamp: '2022-10-13T09:05:13.482Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:16:08.019Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:16:08.022Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 6
+    },
+    timestamp: '2022-10-13T09:16:08.027Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:19:56.804Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:19:56.808Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 7
+    },
+    timestamp: '2022-10-13T09:19:56.814Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:19:57.502Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:19:57.502Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 1
+    },
+    timestamp: '2022-10-13T09:19:57.504Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:34:41.742Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:34:41.745Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 7
+    },
+    timestamp: '2022-10-13T09:34:41.751Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:46:53.764Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:46:53.769Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 8
+    },
+    timestamp: '2022-10-13T09:46:53.775Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:47:54.284Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:47:54.287Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 6
+    },
+    timestamp: '2022-10-13T09:47:54.293Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:19.341Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:19.344Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 6
+    },
+    timestamp: '2022-10-13T09:48:19.350Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:19.703Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:19.703Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 1
+    },
+    timestamp: '2022-10-13T09:48:19.704Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:19.903Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:19.904Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 1
+    },
+    timestamp: '2022-10-13T09:48:19.905Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:20.086Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:20.087Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 1
+    },
+    timestamp: '2022-10-13T09:48:20.088Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:20.272Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:20.272Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 1
+    },
+    timestamp: '2022-10-13T09:48:20.273Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:20.439Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:20.440Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 1
+    },
+    timestamp: '2022-10-13T09:48:20.441Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:20.657Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:20.657Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 1
+    },
+    timestamp: '2022-10-13T09:48:20.658Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:20.830Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:20.830Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 1
+    },
+    timestamp: '2022-10-13T09:48:20.831Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:21.040Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:21.040Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 1
+    },
+    timestamp: '2022-10-13T09:48:21.041Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:21.226Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:48:21.226Z' }
+}
+{
+  level: 'info',
+  message: 'HTTP GET /',
+  metadata: {
+    meta: {
+      req: {
+        url: '/',
+        headers: {
+          host: 'localhost:4000',
+          connection: 'keep-alive',
+          'cache-control': 'max-age=0',
+          'sec-ch-ua': '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+          'sec-ch-ua-mobile': '?0',
+          'sec-ch-ua-platform': '"Windows"',
+          'upgrade-insecure-requests': '1',
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+          accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+          'sec-fetch-site': 'none',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-user': '?1',
+          'sec-fetch-dest': 'document',
+          'accept-encoding': 'gzip, deflate, br',
+          'accept-language': 'en-US,en;q=0.9,vi;q=0.8',
+          cookie: 'PHPSESSID=hbv1pvm3mcir8v9f71mgf15jmi; REVEL_FLASH=',
+          'if-none-match': 'W/"c-Lve95gjOVATpfV8EL5X4nxwjKHE"'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/',
+        query: {}
+      },
+      res: { statusCode: 304 },
+      responseTime: 0
+    },
+    timestamp: '2022-10-13T09:48:21.227Z'
+  }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:50:06.542Z' }
+}
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-10-13T09:50:06.546Z' }
+}

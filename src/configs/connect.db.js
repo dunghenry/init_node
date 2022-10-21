@@ -1,14 +1,15 @@
 const mongoose = require('mongoose');
+const colors = require('colors');
 const connectDB = async () => {
     try {
         await mongoose.connect(process.env.MONGODB_URI, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
-        console.log('Connect MongoDB successfully!!');
+        console.log(colors.green('Connect MongoDB successfully!!'));
     } catch (error) {
         console.log(error);
-        console.error('Connect MongoDB failed!!');
+        console.error(colors.red('Connect MongoDB failed!!'));
         process.exit(1);
     }
 };

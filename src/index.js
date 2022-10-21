@@ -4,7 +4,6 @@ const { ApolloServer, gql } = require('apollo-server-express');
 dotenv.config();
 const colors = require('colors');
 const os = require('os');
-const http = require('http');
 process.env.UV_THREADPOOL_SIZE = os.cpus.length;
 const cors = require('cors');
 const morgan = require('morgan');
@@ -18,11 +17,11 @@ const swaggerUi = require('swagger-ui-express');
 require('winston-mongodb');
 const connectDB = require('./configs/connect.db');
 const viewEngine = require('./configs/viewEngine');
-const { logger, myFormat } = require('./helpers/logger');
+const { myFormat } = require('./helpers/logger');
 const port = process.env.PORT || 4000;
 const routes = require('./routes');
+const db = require('../db.json');
 const app = express();
-
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -31,8 +30,8 @@ app.use(cookieParser());
 // app.use(helmet());
 connectDB();
 viewEngine(app);
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openapiSpecification));
 routes(app);
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openapiSpecification));
 app.use(
     expressWinston.logger({
         transports: [
@@ -76,7 +75,7 @@ const typeDefs = gql`
     type Book {
         id: ID
         title: String
-        genre: String
+        author: String
     }
     type Query {
         books: [Book]
@@ -85,19 +84,19 @@ const typeDefs = gql`
 const resolvers = {
     Query: {
         books: () => {
-            return [
-                { id: 1, title: 'De men phieu lieu ki', genre: 'Adventure' },
-            ];
+            return db.books;
         },
     },
 };
 const server = new ApolloServer({
     typeDefs,
     resolvers,
+    // context: ({ req, res }) => ({ req, res }),
 });
-
 server.start().then(() => {
-    server.applyMiddleware({ app });
+    server.applyMiddleware({
+        app,
+    });
     app.listen(port, () =>
         console.log(
             colors.green(
